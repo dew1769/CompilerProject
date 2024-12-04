@@ -1,0 +1,14 @@
+class Box is
+ var item : T
+ this(item: T) is
+   self.item := item
+ end
+end
+
+class Student extends Person is
+ var studentID : Integer
+ this(name: String, age: Integer, studentID: Integer) is
+   self.studentID := studentID
+   super(name, age)
+ end
+end

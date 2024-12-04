@@ -1,0 +1,6 @@
+class UnreachableCode is
+    method unreachableTest() is
+        return "The variable x should be deleted"
+        var x: Integer := 5
+    end
+end

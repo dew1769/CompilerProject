@@ -1,0 +1,15 @@
+class Car is
+    method engine() String is
+        return "VRUM VRUM"
+    end
+end
+
+class Main is
+    this() is
+    end
+    
+    method main() is
+        var x: Real := 88.5
+        var y: Boolean()
+    end
+end

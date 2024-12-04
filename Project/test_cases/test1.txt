@@ -1,0 +1,12 @@
+class Addition is
+    var x: Integer
+    var y: Integer
+    this(x: Integer, y: Integer) is
+        this.x := x
+        this.y := y
+    end
+    method Addition(i: Integer, j: Integer) is
+        x := x.Plus(i)
+        y := y.Plus(j)
+    end
+end

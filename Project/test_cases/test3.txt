@@ -1,0 +1,5 @@
+class ConstantOptimization is
+    method addConstants() is
+        var x: Integer := 5.Plus(3)
+    end
+end

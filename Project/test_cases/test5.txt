@@ -1,0 +1,10 @@
+class checkCondition is
+    method checkCondition() is
+        var i : Integer := 3
+        if i.less(5) then
+            var x: Integer := 5
+        else
+            var y: Integer := 10
+        end
+    end
+end
