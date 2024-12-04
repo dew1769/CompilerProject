@@ -1,0 +1,8 @@
+class ArrTest is
+    method addElements() is
+        var arr: Array[Integer]
+        arr.set(1,1)
+        arr.set(2,2)
+        arr.set(3,3)
+    end
+end

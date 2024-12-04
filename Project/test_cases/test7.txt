@@ -1,0 +1,11 @@
+class Jim is
+    method speak() String is
+        return "Jim is speaking..."
+	var i: Integer := 1
+        while i.LessEqual(14) loop
+            i := i.Plus(1)
+	    j := 2
+        end
+        var i: Integer := 1
+    end
+end

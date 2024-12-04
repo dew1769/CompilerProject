@@ -1,0 +1,6 @@
+class DeclarationTest is
+    method undeclaredVariableUsage() is
+        y := 5
+        var x: Integer := 10
+    end
+end
